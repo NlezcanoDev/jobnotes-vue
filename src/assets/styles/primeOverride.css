@@ -1,0 +1,21 @@
+/* BUTTONS */
+
+/* Base */
+.p-button:not(.p-button-icon-only, .p-button-outlined, .p-button-text):hover {
+    background-color: var(--green-800);
+    box-shadow: none;
+}
+
+.p-button:active {
+    transform: scale(0.95);
+}
+
+.p-button:focus {
+    box-shadow: none;
+}
+
+/* buttons */
+.p-button:not(.p-button-icon-only, .p-button-outlined, .p-button-text) {
+    background-color: var(--green-700);
+    border: var(--green-700);
+}
